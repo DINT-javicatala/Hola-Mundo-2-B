@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Hola Mundo" Height="450" Width="800">
     <Grid>
-        <TextBlock x:Name="SaludoTextBlock" HorizontalAlignment="Left" Margin="197,38,0,0" TextWrapping="Wrap" Text="Hola mundo!" VerticalAlignment="Top" Height="110" Width="474" FontSize="72" Foreground="#FF9B480E"/>
+        <TextBlock x:Name="SaludoTextBlock" HorizontalAlignment="Left" Margin="197,38,0,0" TextWrapping="Wrap" Text="Hola mundo" VerticalAlignment="Top" Height="110" Width="474" FontSize="72" Foreground="#FF9B480E"/>
         <TextBlock x:Name="NombreTextBlock" HorizontalAlignment="Left" Margin="235,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Nombre:"/></TextBlock>
         <TextBox x:Name="NombreTextBox" TextWrapping="Wrap" Margin="235,195,357,201"/>
         <Button x:Name="AceptarButton" Content="Aceptar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="455,196,0,0" Click="Otro_AceptarButton_Click"/>
